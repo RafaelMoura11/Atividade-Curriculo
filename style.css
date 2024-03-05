@@ -84,3 +84,14 @@ p {
 .projects div h6 {
     text-align: center;
 }
+
+#contact {
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 860px;
+}
+
+#contact button {
+    font-size: 16px;
+}
