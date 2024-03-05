@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
 </head>
 <body>
-    
+    <div id="contact-form">
+        <form>
+            <h2>Insira os dados de contato:</h2>
+            <label for="fullName">Nome:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Digite seu nome"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
+            <label for="phone">Telefone:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="Digite seu telefone"><br><br><br>
+            <input type="submit" value="Enviar" onclick="resetForm()">
+          </form> 
+    </div>
+    <script>
+        function resetForm() {
+          document.getElementById("contact-form").reset();
+        }
+        </script>
 </body>
 </html>
