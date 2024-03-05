@@ -29,13 +29,18 @@ img {
     width: 50%;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
 }
 
 .about {
     display: flex;
     justify-content: space-around;
+}
+
+.about section p {
+    width: 400px;
+    text-align: center;
 }
 
 .resume {
